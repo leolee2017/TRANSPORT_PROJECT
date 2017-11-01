@@ -1,0 +1,59 @@
+*{
+    font-family: ;
+}
+
+body {
+    background-color: skyblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.introduction {
+    
+}
+
+.member-intro {
+    width: 836px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    padding: 5px 30px 20px 30px;
+    
+}
+
+.member-intro h2{
+    text-align: center;
+}
+
+.member {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.member img {
+    width: 160px;
+    height: 150px;
+    border-radius: 5%;
+}
+
+.member h3{
+    margin: 0;
+}
+
+.member a {
+    text-decoration: none;
+}
+
+.member a:hover {
+    text-decoration: underline;
+}
+
+.name {
+    color: #4274f4;
+}
+
