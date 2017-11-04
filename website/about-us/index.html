@@ -1,78 +1,111 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <meta charset="utf-8">
         <title>關於我們</title>
-
         <link href="../styles/main.css" rel=stylesheet type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     </head>
-
     <body>
-        <h1>關於我們</h1>
-        <div class="content">
-            
-            <div class="introduction">
-                <h2>讓旅行變簡單</h2>
-            </div>
-
-            <div class="notion">
-
-            </div>
-
-            <div class="member-intro center">
-                <h2>團隊成員</h2>
-                <div class="member">
-                    <a href="https://rollens.github.io/wp2017/" target="_blank">
-                        <img src="../images/figure-picture-1.jpg">
-                        <h3 class="name">葛綜棠</h3>
-                    </a>
-                    <h3>執行長/工程師</h3>
-
-                </div>
-                <div class="member">
-                    <a href="https://ycvoz.github.io/wp2017/" target="_blank">
-                        <img src="../images/figure-picture-2.jpg">
-                        <h3 class="name">陳宥丞</h3>
-                    </a>
-                    <h3>工程師</h3>
-
-                </div>
-                <div class="member">
-                    <a href="https://george81019.github.io/" target="_blank">
-                        <img src="../images/figure-picture-3.jpg">
-                        <h3 class="name">張庭華</h3>
-                    </a>
-                    <h3>工程師</h3>
-                </div>
-                <div class="member">
-                    <a href="http://luffy.ee.ncku.edu.tw:15566/index.html" target="_blank">
-                        <img src="../images/figure-picture-4.jpg">
-                        <h3 class="name">李佶龍</h3>
-                    </a>
-                    <h3>工程師</h3>
-                </div>
-                <div class="member">
-                    <a href="" target="_blank">
-                        <img src="../images/figure-picture-5.jpg">
-                        <h3 class="name">黃聖心</h3>
-                    </a>
-                    <h3>工程師</h3>
+        <section class="heading">
+            <header>
+                <h1>Translist</h1>
+            </header>
+        </section>
+        <section class="origin">
+            <div class="container">
+                <header class="sub-header">
+                    <h2>平台由來</h2>
+                </header>
+                <div class="origin-inner">
+                    <p>台灣交通路網日趨成熟，南北往來兩個小時內便能抵達；然而，到了陌生的城市，往往需要耗費時間查詢轉乘、交通時間等問題；因此，我們決定整合問題，將繁雜的轉乘以及雜亂的旅行時間，以一張一張的車票形式呈現，讓不論是要去外縣市通勤的您，或是想要出門旅行的你，都能迅速掌握 How to go there</p>
                 </div>
             </div>
-
-            <div class="contact">
-                
+        </section>
+        <section class="feature">
+            <div class="container-inner">
+                <div class="feature-card">
+                    <img src="../images/A-B.png">
+                    <h2>規劃方式</h2>
+                    <p>多元方便的路線選擇，輕鬆規劃自己的旅程</p>
+                </div>
+                <div class="feature-card">
+                    <img src="../images/transport-information-card.jpg">
+                    <h2>車票小卡</h2>
+                    <p>簡單明瞭的搭乘時間與方式，便利轉乘不擔心</p>
+                </div>
             </div>
-            
-            <div>
-                <img src="http://gantdaily.com/wp-content/uploads/2017/10/Halloween.jpg">
+        </section>
+        <section class="about-us">
+            <div class="container">
+                <header class="sub-header">
+                    <h2>團隊簡介</h2>
+                </header>
+                <div class="about-us-inner">
+                    <p>我們是一群來自成功大學電機系的學生；在台南，想要搭乘高鐵需要轉乘台鐵沙崙線，也因此衍生出許多轉乘時間上需要注意的點。我們看見了這樣對於時間就是金錢的旅客來說，是件極為不便也不貼心的事情，因此我們設計了 Translist 這個網站，讓在台灣奔波的每個旅人，都能擁有更多時間去體驗旅程。</p>
+                </div>
             </div>
-        </div>
-
+        </section>
+        <section class="member-intro">
+            <div class="container">
+                <header class="sub-header">
+                    <h2>團隊成員</h2>
+                </header>
+                <div class="member-intro-inner">
+                    <div class="member-card">
+                        <a href="https://rollens.github.io/wp2017/" target="_blank">
+                            <div class="brief">
+                                <span>執行長/工程師</span>
+                                <h3>葛綜棠</h3>
+                                <span class="more">About Me</span>
+                            </div>
+                            <img src="../images/figure-picture-01.jpg">
+                        </a>
+                    </div>
+                    <div class="member-card">
+                        <a href="https://ycvoz.github.io/wp2017/" target="_blank">
+                            <div class="brief">
+                                <span>工程師</span>
+                                <h3>陳宥丞</h3>
+                                <span class="more">About Me</span>
+                            </div>
+                            <img src="../images/figure-picture-02.jpg">
+                        </a>
+                    </div>
+                    <div class="member-card">
+                        <a href="https://george81019.github.io/" target="_blank">
+                            <div class="brief">
+                                <span>工程師</span>
+                                <h3>張庭華</h3>
+                                <span class="more">About Me</span>
+                            </div>
+                            <img src="../images/figure-picture-03.jpg">
+                        </a>
+                    </div>
+                    <div class="member-card">
+                        <a href="https://leolee2017.github.io/wp2017/" target="_blank">
+                            <div class="brief">
+                                <span>工程師</span>
+                                <h3>李佶龍</h3>
+                                <span class="more">About Me</span>
+                            </div>
+                            <img src="../images/figure-picture-04.jpg">
+                        </a>
+                    </div>
+                    <div class="member-card">
+                        <a href="" target="_blank">
+                            <div class="brief">
+                                <span>工程師</span>
+                                <h3>黃聖心</h3>
+                                <span class="more">About Me</span>
+                            </div>
+                            <img src="../images/figure-picture-05.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="../scripts/main.js"></script> 
     </body>
-
-
 </html>

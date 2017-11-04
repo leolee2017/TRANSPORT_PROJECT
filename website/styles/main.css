@@ -1,59 +1,96 @@
-*{
-    font-family: ;
-}
-
 body {
-    background-color: skyblue;
-}
-
-h1 {
+    margin: 0;
     text-align: center;
 }
 
-.center {
-    margin: 0 auto;
+.heading {
+    padding: 50px 0;
 }
 
-.introduction {
-    
+.heading h1{
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.origin, .about-us {
+    padding-bottom: 50px;
+}
+
+.origin {
+    background-color: powderblue;
+}
+
+.about-us {
+    background-color: floralwhite;
 }
 
 .member-intro {
-    width: 836px;
-    border-radius: 20px;
-    background-color: antiquewhite;
-    padding: 5px 30px 20px 30px;
-    
+    background-color: white;
 }
 
-.member-intro h2{
-    text-align: center;
-}
-
-.member {
+.feature-card {
+    width: 350px;
+    padding: 20px 40px;
+    margin: 20px 10px;
     display: inline-block;
-    margin: 0 2px;
 }
 
-.member img {
-    width: 160px;
-    height: 150px;
-    border-radius: 5%;
+.feature-card img {
+    width: 350px;
 }
 
-.member h3{
-    margin: 0;
+.sub-header {
+    font-size: 22px;
+    margin-bottom: 80px;
 }
 
-.member a {
-    text-decoration: none;
+.origin-inner p, .about-us-inner p {
+    font-size: 20px;
 }
 
-.member a:hover {
-    text-decoration: underline;
+.member-intro-inner {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.name {
-    color: #4274f4;
+.member-card {
+    width: 285px;
+    height: 320px;
+    padding: 0 10px;
+    margin: 10px 10px;
+    border-top-style: solid;
+    border-top-color: darkorange;
+    border-top-width: 3px;
+    display: inline-block;
+    background-color: white;
 }
 
+.brief {
+    width: 105px;
+    text-align: left;
+    float: left;
+    margin: 70px 0 0 0;
+}
+
+.brief h3 {
+    margin: 45px 0 85px 0;
+    color: black;
+}
+
+.brief span {
+    color: darkorange;
+}
+
+.member-card img {
+    width: 180px;
+    height: 270px;
+    float: right;
+    display: inline-block;
+}
+
+.container {
+    text-align: center;
+    max-width: 1500px;
+    padding: 100px 10px;
+    margin: 0 auto;
+}
